@@ -6,7 +6,13 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    gridTemplateColumns: {
+      "auto-fill": "repeat(auto-fill, minmax(200px, 1fr))",
+    },
     extend: {
+      height: {
+        128: "40rem",
+      },
       // backgroundImage: {
       //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       //   "gradient-conic":
